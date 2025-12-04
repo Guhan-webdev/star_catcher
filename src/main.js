@@ -1,4 +1,3 @@
-import Phaser from 'phaser';
 const startButton = document.getElementById('StartBtn');
 const startMenu = document.getElementById('startMenu');
 const gameStart = document.getElementById('gameCanvas');
