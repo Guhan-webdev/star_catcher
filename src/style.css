@@ -1,0 +1,54 @@
+/* Reset default browser margins */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: aliceblue;
+  font-family: Arial, sans-serif;
+  
+  /* This centers everything perfectly on the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  flex-direction: column;
+}
+
+/* Style for the Menus (Start and Game Over) */
+.menu {
+  text-align: center;
+  display: flex; /* This ensures the menu is visible by default */
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Utility class to hide elements */
+.hidden {
+  display: none !important;
+}
+
+/* Button Styling */
+button {
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #333;
+  color: white;
+  border: 2px solid aliceblue;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* The game container */
+#game {
+  /* We don't hide this via CSS anymore. 
+     We let Phaser create the canvas inside here. */
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="./src/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Star Catcher</title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="startMenu" class="menu">
+    <h1>Star Catcher</h1>
+    <button id="StartBtn">Start Game</button>
+  </div>
+
+  <div class="menu hidden">
+    <h1>Game Over</h1>
+    <h2 id="gameOver"></h2>
+    <button id="RestartBtn">Try Again</button>
+  </div>
+  
+  <div id="game">
+    <div id="gameCanvas"></div>
+    <script type="module" src="/src/main.js"></script>
+  </div>
+
+</body>
+</html>
